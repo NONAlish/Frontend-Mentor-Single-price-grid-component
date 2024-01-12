@@ -1,0 +1,68 @@
+.left_card{
+    width: 320px;
+    height: 260px;
+    background-color: #2AB3B1;
+    border-radius: 0 0 0 8px;
+}
+
+.left_card_h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 30px;
+}
+
+p,h3{
+    color: white;
+}
+
+.per_month{
+    color: white;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+.price>p{
+    font-size: 32px;
+}
+
+.left_card_main_text{
+    margin-bottom: 30px;
+    width: 238px;
+}
+
+button{
+    width: 237px;
+    height: 48px;
+    color: #000;
+    background-color: #C0DF33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+@media (max-width: 650px) {
+    .left_card{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 227px;
+        background-color: #2AB3B1;
+        border-radius: 0;
+    }
+    .left_card_h3, .price>*, .left_card_main_text{
+        margin: 0;
+        padding: 0;
+        margin-left: 25px;
+        padding-top: 25px;
+    }
+    .btn{
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+}

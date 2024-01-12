@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.wrapper{
+    width: 640px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+header{
+    height: 215px;
+}
+
+.wrapper_h1{
+    color: #2AB3B1;
+    margin-bottom: 24px;
+    padding-top: 35px;
+}
+.wrapper_h3{
+    color: #C0DF33;
+    margin-bottom: 10px;
+}
+.wrapper_p{
+    color: #9AA7BE;
+    width: 555px;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+main{
+    display: flex;
+}
+
+h1,p,span,h3, button{
+    margin-left: 40px;
+    font-family: 'Karla', sans-serif;
+}
+
+
+@media (max-width: 650px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 722px;
+    }
+
+    main{
+        display: block;
+    }
+    .wrapper_p{
+        width: 265px;
+    }
+    .wrapper_h1{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .wrapper_h3{
+        font-size: 15px;
+    }
+    .wrapper_p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    header>*{
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    header{
+        height: 268px;
+    }
+}

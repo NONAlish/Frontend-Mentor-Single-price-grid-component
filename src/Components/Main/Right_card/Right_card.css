@@ -1,0 +1,38 @@
+.rigth_card{
+    height: 260px;
+    width: 320px;
+    background-color: #2AB3B1;
+    opacity: 0.8;
+    border-radius: 0 0 8px 0;
+}
+
+.rigth_card_h3{
+    margin: 0;
+    padding-top: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.rigth_card_main_text{
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+@media (max-width: 650px) {
+    .rigth_card{
+        width: 320px;
+        height: 227px;
+        background-color: #2AB3B1;
+        border-radius: 0;
+    }
+    .rigth_card_h3{
+        margin: 0;
+        padding-top: 25px;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    .rigth_card_main_text{
+        margin-left: 30px;
+    }
+}
